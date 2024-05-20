@@ -6,6 +6,8 @@ This project is a Flask web application that is designed to run as a container o
 The app provides access to images stored in an S3 bucket.
 Additionally, it utilizes auto scaling and a load balancer to handle varying levels of traffic efficiently.
 
+![image]([image link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw2pps6GBNfNkJMCT2DN-hs0&ust=1716287265769000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOj0jLmCnIYDFQAAAAAdAAAAABAE))
+
 ## Table of Contents
 
 - [Installation](#installation)
