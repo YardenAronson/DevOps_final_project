@@ -29,7 +29,7 @@ Additionally, it utilizes auto scaling and a load balancer to handle varying lev
 <img width="1210" alt="sg" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/cd440e17-8300-42e3-b39e-d24c8b245422">
 
   
-- **Script for Setup:**
+- **User data:**
 
 ```
 #!/bin/bash
