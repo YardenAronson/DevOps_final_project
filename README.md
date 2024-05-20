@@ -1,18 +1,18 @@
 # DevOps_final_project
 ## Flask App with Auto Scaling and Load Balancer
-## Description
+### Description
 
 This project is a Flask web application that is designed to run as a container on an EC2 instance.
 The app provides access to images stored in an S3 bucket.
 Additionally, it utilizes auto scaling and a load balancer to handle varying levels of traffic efficiently.
 
-## Table of Contents
+### Table of Contents
+- [Create Template](#create-template)
+- [Create Auto Scaling](#create-auto-scaling)
+- [Create Load Balancer](#create-load-balancer)
 
 
-
-
-## Create Template
-## Create Template
+### Create Template
 - **Operating System:** Ubuntu 22.04
 - **Instance Type:** t2.micro
 - **IAM Role:**
@@ -62,13 +62,13 @@ sudo docker run -p 5001:5001  flask_app:1.0
 
 ```
 
-## Create Auto Scaling
+### Create Auto Scaling
 
 <img width="1206" alt="asg" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/1d74a05a-9b04-45a5-9b5b-33c80c325263">
 
 
 
-## Create Load Balancer
+### Create Load Balancer
 
 <img width="1206" alt="lb" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/64f952aa-38ba-4988-a5d0-2d3ce6f9b82f">
 
