@@ -8,30 +8,28 @@ Additionally, it utilizes auto scaling and a load balancer to handle varying lev
 
 ## Table of Contents
 
-- [Template](#Create Template)
-- [Auto Scaling](#Create Auto Scaling)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 
 ## Create Template
-- ubuntu 22.04
-- t2.micro
-- Role:
-      add to the instance s3ReadOnlyAccess premition
-      (the s3 is a private bucket)
+## Create Template
+- **Operating System:** Ubuntu 22.04
+- **Instance Type:** t2.micro
+- **IAM Role:**
+  - Assign the `s3ReadOnlyAccess` permission to the instance role. Ensure the role has access to the necessary S3 bucket. (The S3 bucket is private.)
+
+  
 <img width="361" alt="role" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/28cd5421-7e31-4b91-a0ac-ba6b71e90e35">
 
     
       
-- Securaty Group:
-      allow ports 22(SSH), 80(http), 5001(app)
+- **Security Group:**
+  - Allow inbound traffic on ports 22 (SSH), 80 (HTTP), and 5001 (application).
 
 <img width="1210" alt="sg" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/cd440e17-8300-42e3-b39e-d24c8b245422">
 
   
-- script for data:
+- **Script for Setup:**
 
 ```
 #!/bin/bash
