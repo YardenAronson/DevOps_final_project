@@ -2,9 +2,9 @@
 ## Flask App with Auto Scaling and Load Balancer
 ### Description
 
-This project is a Flask web application that is designed to run as a container on an EC2 instance.
-The app provides access to images stored in an S3 bucket.
-Additionally, it utilizes auto scaling and a load balancer to handle varying levels of traffic efficiently.
+This project demonstrates the implementation of a scalable and resilient
+Flask web application using AWS services like EC2, S3, Auto Scaling, and a load balancer.
+It provides a robust foundation for hosting applications that require high availability and scalability.
 
 ### Table of Contents
 - [Create Template](#create-template)
@@ -89,12 +89,9 @@ Remember to register the instance to the new target group with the correct port:
 
 
 ### Final Results
-
+When your load balancer up and connect to your target group you can use the load balancer DNS for access the app:
 <img width="1512" alt="Screenshot 2024-05-20 at 14 13 48" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/3ca025fb-98bf-4b0e-b67f-6057afd39e26">
+
+Enter name and email:
 <img width="1512" alt="Screenshot 2024-05-20 at 14 14 15" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/a44a9424-5f0f-45f1-b700-f468d1ffb0f9">
-
-
-
-
-
 
