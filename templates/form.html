@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
+</head>
+<body>
+<form method="POST" action="/">
+<div class="container">
+  <div class="left">
+    <div class="header">
+      <h2 class="animation a1">Welcome</h2>
+      <h4 class="animation a2">Log in to your account using your Name and Email</h4>
+    </div>
+    <div class="form">
+      <input type="text" class="form-field animation a3" placeholder="Name" name="name">
+      <input type="email" class="form-field animation a4" placeholder="Email Address" name="email">
+      <br>
+        <button class="animation a6 button" type="submit">LOGIN</button>
+    </div>
+  </div>
+  <div class="right"></div>
+</div>
+</form>
+</body>
+</html>
