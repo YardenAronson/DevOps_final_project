@@ -77,7 +77,8 @@ You should see your instances scale up:
 
 <img width="1228" alt="Screenshot 2024-05-20 at 14 24 00" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/e6210aa1-7421-4a84-954e-d8ccc79803fa">
 
-
+Remember to register the instance to the new target group with the correct port:
+<img width="1228" alt="Screenshot 2024-05-20 at 15 10 40" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/7d2bcb20-cd12-4da0-86cd-ab6cb6146361">
 
 
 
