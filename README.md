@@ -12,6 +12,24 @@ This project is a Flask web application that is designed to run as a container o
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## Clone
 
 1. Clone the repository to your EC2:
+git clone "https://github.com/YardenAronson/DevOps_final_project.git"
+
+
+## Docker Install on EC2
+1. sudo apt-get update
+2. sudo apt-get install docker.io -y
+3. sudo systemctl start docker
+4. sudo docker run hello-world
+
+## create the container
+1. cd ./DevOps_final_project/
+2. nano .env
+3. add your parameters:
+    BUCKET_NAME=
+    IMAGE_NAME=
+4. sudo docker build -t flask_app:1.0 .
+5. sudo docker run -p 5001:5001  flask_app:1.0
+
