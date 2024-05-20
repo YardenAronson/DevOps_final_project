@@ -66,15 +66,6 @@ sudo docker run -p 5001:5001  flask_app:1.0
 
 <img width="1206" alt="asg" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/1d74a05a-9b04-45a5-9b5b-33c80c325263">
 
-
-
-### Create Load Balancer
-
-<img width="1206" alt="lb" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/64f952aa-38ba-4988-a5d0-2d3ce6f9b82f">
-
-
-
-### Final Results
 To test your Auto Scaling connect to your ec2 and use:
 ```
 sudo apt-get install stress-ng
@@ -87,6 +78,19 @@ You should see your instances scale up:
 <img width="1228" alt="Screenshot 2024-05-20 at 14 24 00" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/e6210aa1-7421-4a84-954e-d8ccc79803fa">
 
 
+
+
+
+### Create Load Balancer
+
+<img width="1206" alt="lb" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/64f952aa-38ba-4988-a5d0-2d3ce6f9b82f">
+
+
+
+### Final Results
+
+<img width="1512" alt="Screenshot 2024-05-20 at 14 13 48" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/3ca025fb-98bf-4b0e-b67f-6057afd39e26">
+<img width="1512" alt="Screenshot 2024-05-20 at 14 14 15" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/a44a9424-5f0f-45f1-b700-f468d1ffb0f9">
 
 
 
