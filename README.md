@@ -14,4 +14,4 @@ This project is a Flask web application that is designed to run as a container o
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your EC2:
