@@ -25,7 +25,7 @@ git clone "https://github.com/YardenAronson/DevOps_final_project.git"
 - t2.micro
 - script for data:
 
-'''bash
+```
 #!/bin/bash
 
 # Clone the project repository
@@ -50,7 +50,7 @@ echo "IMAGE_NAME=YOUR_IMAGE_NAME" >> .env
 
 # Build Docker image for Flask app
 sudo docker build -t flask_app:1.0 .
-'''
+```
 
 
 ## securaty
