@@ -10,7 +10,7 @@ Additionally, it utilizes auto scaling and a load balancer to handle varying lev
 - [Create Template](#create-template)
 - [Create Auto Scaling](#create-auto-scaling)
 - [Create Load Balancer](#create-load-balancer)
-
+- [Final Results](#final-results)
 
 ### Create Template
 - **Operating System:** Ubuntu 22.04
@@ -74,7 +74,16 @@ sudo docker run -p 5001:5001  flask_app:1.0
 
 
 
+### Final Results
+To test your Auto Scaling use:
+```
+sudo apt-get install stress-ng
 
+stress-ng --cpu $(nproc) --timeout 5m --metrics-brief
+```
+You should see your instances scale up:
+
+<img width="1228" alt="Screenshot 2024-05-20 at 14 24 00" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/e6210aa1-7421-4a84-954e-d8ccc79803fa">
 
 
 
