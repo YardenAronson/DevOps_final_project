@@ -25,7 +25,7 @@ git clone "https://github.com/YardenAronson/DevOps_final_project.git"
 - t2.micro
 - script for data:
 
-'''
+'''bash
 #!/bin/bash
 
 # Clone the project repository
