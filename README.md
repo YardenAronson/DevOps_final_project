@@ -75,7 +75,7 @@ sudo docker run -p 5001:5001  flask_app:1.0
 
 
 ### Final Results
-To test your Auto Scaling use:
+To test your Auto Scaling connect to your ec2 and use:
 ```
 sudo apt-get install stress-ng
 
@@ -85,6 +85,7 @@ You should see your instances scale up:
 <img width="1228" alt="Screenshot 2024-05-20 at 14 23 48" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/81b49549-b46f-4198-81cc-ff3bbc85f54d">
 
 <img width="1228" alt="Screenshot 2024-05-20 at 14 24 00" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/e6210aa1-7421-4a84-954e-d8ccc79803fa">
+
 
 
 
