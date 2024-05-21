@@ -21,7 +21,7 @@ It provides a robust foundation for hosting applications that require high avail
 
 - Ensure the S3 bucket is private.
 <img width="1228" alt="Screenshot 2024-05-20 at 16 48 43" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/dfcb5d82-9add-4d11-a980-e4ff3cf0758f">
-If you try using the url of the image you will recicve this error:
+If you try using the url of the image you will receive this error:
 <img width="922" alt="Screenshot 2024-05-20 at 16 51 38" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/ae398f9f-f9b6-4cd8-84f7-fc53b40bf8d3">
 
   
