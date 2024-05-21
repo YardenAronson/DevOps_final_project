@@ -1,15 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>in app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Data Science</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='in_app.css') }}">
 </head>
-<body>
+<body style="background-image: url('{{ img_url }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
-<h1> Hello {{ name }}</h1>
-<h2> this is a image from aws s3 bucket</h2>
-{% if img_url %}
-        <img src="{{ img_url }}" alt="Image from S3">
-{% endif %}
+    <header>
+        <h1>Hello {{ name }}</h1>
+        <h1>This is an introduction to Data Science</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#what-is-data-science">What is Data Science?</a></li>
+            <li><a href="#data-science-process">Data Science Process</a></li>
+            <li><a href="#applications">Applications</a></li>
+            <li><a href="#skills">Skills Required</a></li>
+            <li><a href="#tools">Tools and Technologies</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="what-is-data-science">
+            <h2>What is Data Science?</h2>
+            <p>Data Science is a multidisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines aspects of statistics, computer science, and domain expertise to analyze and interpret complex data.</p>
+        </section>
+        <section id="data-science-process">
+            <h2>Data Science Process</h2>
+            <ol>
+                <li><strong>Data Collection:</strong> Gathering data from various sources.</li>
+                <li><strong>Data Cleaning:</strong> Removing noise and inconsistencies from the data.</li>
+                <li><strong>Data Exploration:</strong> Understanding the data and its patterns.</li>
+                <li><strong>Data Modeling:</strong> Applying statistical and machine learning models.</li>
+                <li><strong>Data Interpretation:</strong> Extracting meaningful insights and making data-driven decisions.</li>
+            </ol>
+        </section>
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>Data Science has numerous applications across different industries, including:</p>
+            <ul>
+                <li>Healthcare</li>
+                <li>Finance</li>
+                <li>Marketing</li>
+                <li>Retail</li>
+                <li>Manufacturing</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills Required</h2>
+            <ul>
+                <li>Statistical Analysis</li>
+                <li>Programming (Python, R)</li>
+                <li>Machine Learning</li>
+                <li>Data Visualization</li>
+                <li>Domain Knowledge</li>
+            </ul>
+        </section>
+        <section id="tools">
+            <h2>Tools and Technologies</h2>
+            <p>Common tools and technologies used in Data Science include:</p>
+            <ul>
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Apache Hadoop</li>
+                <li>TensorFlow</li>
+            </ul>
+        </section>
+    </main>
+<br><br><br>
+    <footer>
+        <p>&copy; 2024 Data Science Introduction. All rights reserved.</p>
+    </footer>
 </body>
 </html>
