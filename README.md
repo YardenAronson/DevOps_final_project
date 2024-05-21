@@ -97,6 +97,6 @@ Remember to register the instance to the new target group with the correct port:
 When your load balancer up and connect to your target group you can use the load balancer DNS for access the app:
 <img width="1512" alt="Screenshot 2024-05-20 at 14 13 48" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/3ca025fb-98bf-4b0e-b67f-6057afd39e26">
 
-Enter name and email:
+After enter name and email you will move to this new route will the image from the s3 bucket:
 <img width="1512" alt="Screenshot 2024-05-20 at 14 14 15" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/a44a9424-5f0f-45f1-b700-f468d1ffb0f9">
 
