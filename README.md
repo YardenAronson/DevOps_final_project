@@ -66,7 +66,7 @@ sudo docker build -t flask_app:1.0 .
 sudo docker run -p 5001:5001  flask_app:1.0
 
 ```
-
+Remember to swap **YOUR_BUCKET_NAME** and **YOUR_IMAGE_NAME** with your real bucket and image names!
 ### Create Auto Scaling
 
 <img width="1206" alt="asg" src="https://github.com/YardenAronson/DevOps_final_project/assets/118343503/1d74a05a-9b04-45a5-9b5b-33c80c325263">
