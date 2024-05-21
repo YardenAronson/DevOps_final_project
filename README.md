@@ -5,6 +5,7 @@
 This project demonstrates the implementation of a scalable and resilient
 Flask web application using AWS services like EC2, S3, Auto Scaling, and a load balancer.
 It provides a robust foundation for hosting applications that require high availability and scalability.
+![Diagram](https://github.com/YardenAronson/DevOps_final_project/assets/118343503/36aebfa7-1e55-4575-ac2a-9db8dfb2ac9a)
 
 ### Table of Contents
 - [Create Template](#create-template)
